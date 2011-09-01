@@ -43,11 +43,11 @@
 
   before = [NSDate date];
   [self singleEvalJS];
-  [self printElapsedSince:before description:@"singleEvalJS"];
+  [self printElapsedSince:before description:@"singleEvalJS 10000 statements"];
 
   before = [NSDate date];
   [self multipleEvalJS];
-  [self printElapsedSince:before description:@"multipleEvalJS"];
+  [self printElapsedSince:before description:@"multipleEvalJS 10000 statements"];
 
   PluginResult* result = [PluginResult resultWithStatus:PGCommandStatus_OK];
   NSString* callbackID = [arguments objectAtIndex:0];
