@@ -22,7 +22,6 @@
 		C923E4D0140FEF4D00BCBAE0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C923E4CF140FEF4D00BCBAE0 /* CoreMedia.framework */; };
 		C923E4D6140FEF4D00BCBAE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C923E4D4140FEF4D00BCBAE0 /* InfoPlist.strings */; };
 		C923E4D9140FEF4D00BCBAE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C923E4D8140FEF4D00BCBAE0 /* main.m */; };
-		C923E4DB140FEF4D00BCBAE0 /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C923E4DA140FEF4D00BCBAE0 /* PhoneGap.framework */; };
 		C923E4E0140FEF4D00BCBAE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C923E4DE140FEF4D00BCBAE0 /* Localizable.strings */; };
 		C923E4E4140FEF4D00BCBAE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C923E4E2140FEF4D00BCBAE0 /* Localizable.strings */; };
 		C923E4E7140FEF4D00BCBAE0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C923E4E6140FEF4D00BCBAE0 /* icon.png */; };
@@ -34,7 +33,34 @@
 		C923E4F4140FEF4E00BCBAE0 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C923E4F3140FEF4E00BCBAE0 /* Capture.bundle */; };
 		C923E4F6140FEF4E00BCBAE0 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = C923E4F5140FEF4E00BCBAE0 /* PhoneGap.plist */; };
 		C923E4FA140FEF4E00BCBAE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C923E4F9140FEF4E00BCBAE0 /* AppDelegate.m */; };
+		C923E513140FF60D00BCBAE0 /* libPhoneGap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C923E511140FF5C500BCBAE0 /* libPhoneGap.a */; };
+		C923E515140FF65C00BCBAE0 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = C923E514140FF65C00BCBAE0 /* VERSION */; };
+		C923E51D140FFC2800BCBAE0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = C923E51C140FFC2800BCBAE0 /* www */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C923E50B140FF12100BCBAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C923E502140FF12100BCBAE0 /* PhoneGapLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = PhoneGapLib;
+		};
+		C923E50D140FF12100BCBAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C923E502140FF12100BCBAE0 /* PhoneGapLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 303258D8136B2C9400982B63;
+			remoteInfo = PhoneGap;
+		};
+		C923E50F140FF14200BCBAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C923E502140FF12100BCBAE0 /* PhoneGapLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = PhoneGapLib;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C923E4B3140FEF4D00BCBAE0 /* exec benchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "exec benchmark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +81,6 @@
 		C923E4D5140FEF4D00BCBAE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C923E4D7140FEF4D00BCBAE0 /* exec benchmark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exec benchmark-Prefix.pch"; sourceTree = "<group>"; };
 		C923E4D8140FEF4D00BCBAE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C923E4DA140FEF4D00BCBAE0 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		C923E4DF140FEF4D00BCBAE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C923E4E3140FEF4D00BCBAE0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C923E4E6140FEF4D00BCBAE0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
@@ -69,6 +94,11 @@
 		C923E4F8140FEF4E00BCBAE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		C923E4F9140FEF4E00BCBAE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		C923E4FC140FEF4E00BCBAE0 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		C923E502140FF12100BCBAE0 /* PhoneGapLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PhoneGapLib.xcodeproj; path = "exec benchmark/Components/phonegap-iphone/PhoneGapLib/PhoneGapLib.xcodeproj"; sourceTree = "<group>"; };
+		C923E511140FF5C500BCBAE0 /* libPhoneGap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPhoneGap.a; sourceTree = SOURCE_ROOT; };
+		C923E514140FF65C00BCBAE0 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VERSION; path = "Components/phonegap-iphone/PhoneGapLib/VERSION"; sourceTree = "<group>"; };
+		C923E51C140FFC2800BCBAE0 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = "exec benchmark/www"; sourceTree = "<group>"; };
+		C923E520140FFC4C00BCBAE0 /* phonegap-1.0.0.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "phonegap-1.0.0.js"; path = "exec benchmark/Components/phonegap-iphone/PhoneGapLib/javascripts/phonegap-1.0.0.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +119,7 @@
 				C923E4CC140FEF4D00BCBAE0 /* SystemConfiguration.framework in Frameworks */,
 				C923E4CE140FEF4D00BCBAE0 /* MobileCoreServices.framework in Frameworks */,
 				C923E4D0140FEF4D00BCBAE0 /* CoreMedia.framework in Frameworks */,
-				C923E4DB140FEF4D00BCBAE0 /* PhoneGap.framework in Frameworks */,
+				C923E513140FF60D00BCBAE0 /* libPhoneGap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +136,10 @@
 		C923E4A5140FEF4D00BCBAE0 = {
 			isa = PBXGroup;
 			children = (
+				C923E520140FFC4C00BCBAE0 /* phonegap-1.0.0.js */,
+				C923E51C140FFC2800BCBAE0 /* www */,
+				C923E511140FF5C500BCBAE0 /* libPhoneGap.a */,
+				C923E502140FF12100BCBAE0 /* PhoneGapLib.xcodeproj */,
 				C923E4D1140FEF4D00BCBAE0 /* exec benchmark */,
 				C923E4B6140FEF4D00BCBAE0 /* Frameworks */,
 				C923E4B4140FEF4D00BCBAE0 /* Products */,
@@ -143,7 +177,6 @@
 		C923E4D1140FEF4D00BCBAE0 /* exec benchmark */ = {
 			isa = PBXGroup;
 			children = (
-				C923E4DA140FEF4D00BCBAE0 /* PhoneGap.framework */,
 				C923E4DC140FEF4D00BCBAE0 /* Resources */,
 				C923E4F7140FEF4E00BCBAE0 /* Classes */,
 				C923E4FB140FEF4E00BCBAE0 /* Plugins */,
@@ -167,6 +200,7 @@
 		C923E4DC140FEF4D00BCBAE0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C923E514140FF65C00BCBAE0 /* VERSION */,
 				C923E4F3140FEF4E00BCBAE0 /* Capture.bundle */,
 				C923E4DD140FEF4D00BCBAE0 /* en.lproj */,
 				C923E4E1140FEF4D00BCBAE0 /* es.lproj */,
@@ -229,6 +263,15 @@
 			name = Plugins;
 			sourceTree = "<group>";
 		};
+		C923E503140FF12100BCBAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C923E50C140FF12100BCBAE0 /* libPhoneGap.a */,
+				C923E50E140FF12100BCBAE0 /* PhoneGap.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,16 +279,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C923E4FF140FEF4E00BCBAE0 /* Build configuration list for PBXNativeTarget "exec benchmark" */;
 			buildPhases = (
+				C923E522140FFCB200BCBAE0 /* ShellScript */,
 				C923E4AC140FEF4D00BCBAE0 /* Sources */,
 				C923E4AD140FEF4D00BCBAE0 /* Frameworks */,
 				C923E4AE140FEF4D00BCBAE0 /* Resources */,
 				C923E4AF140FEF4D00BCBAE0 /* Sources */,
 				C923E4B0140FEF4D00BCBAE0 /* Frameworks */,
-				C923E4B1140FEF4D00BCBAE0 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C923E510140FF14200BCBAE0 /* PBXTargetDependency */,
 			);
 			name = "exec benchmark";
 			productName = "exec benchmark";
@@ -268,12 +312,35 @@
 			mainGroup = C923E4A5140FEF4D00BCBAE0;
 			productRefGroup = C923E4B4140FEF4D00BCBAE0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C923E503140FF12100BCBAE0 /* Products */;
+					ProjectRef = C923E502140FF12100BCBAE0 /* PhoneGapLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C923E4B2140FEF4D00BCBAE0 /* exec benchmark */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C923E50C140FF12100BCBAE0 /* libPhoneGap.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPhoneGap.a;
+			remoteRef = C923E50B140FF12100BCBAE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C923E50E140FF12100BCBAE0 /* PhoneGap.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PhoneGap.framework;
+			remoteRef = C923E50D140FF12100BCBAE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C923E4AE140FEF4D00BCBAE0 /* Resources */ = {
@@ -291,13 +358,15 @@
 				C923E4F2140FEF4E00BCBAE0 /* Default~ipad.png in Resources */,
 				C923E4F4140FEF4E00BCBAE0 /* Capture.bundle in Resources */,
 				C923E4F6140FEF4E00BCBAE0 /* PhoneGap.plist in Resources */,
+				C923E515140FF65C00BCBAE0 /* VERSION in Resources */,
+				C923E51D140FFC2800BCBAE0 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C923E4B1140FEF4D00BCBAE0 /* ShellScript */ = {
+		C923E522140FFCB200BCBAE0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,8 +376,8 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "\n\t\t\t\t\t\t\t\tif [ ! -d \"$PROJECT_DIR/www\" ] ; then\n\t\t\t\t\t\t\t\t\tcp -R /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/www \"$PROJECT_DIR\"\n\t\t\t\t\t\t\t\tfi\n\t\t\t\t\t\t\t\t# detect www folder reference in project, if missing, print warning\n\t\t\t\t\t\t\t\tgrep \"{isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = \\\"<group>\\\"; };\" \"$PROJECT_DIR/$PROJECT_NAME.xcodeproj/project.pbxproj\"\n\t\t\t\t\t\t\t\trc=$? \n\t\t\t\t\t\t\t\tif [ $rc != 0 ] ; then\n\t\t\t\t\t\t\t\techo -e \"warning: Missing - Add $PROJECT_DIR/www as a folder reference in your project. Just drag and drop the folder into your project, in Xcode 4.\" 1>&2\n\t\t\t\t\t\t\t\tfi\t\t\t\t\t\t\t";
+			shellPath = /bin/sh;
+			shellScript = "cp \"${PROJECT_DIR}/exec benchmark/Components/phonegap-iphone/PhoneGapLib/javascripts/phonegap-1.0.0.js\" \"${PROJECT_DIR}/exec benchmark/www\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -330,6 +399,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C923E510140FF14200BCBAE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneGapLib;
+			targetProxy = C923E50F140FF14200BCBAE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C923E4D4140FEF4D00BCBAE0 /* InfoPlist.strings */ = {
@@ -395,13 +472,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "exec benchmark/exec benchmark-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "exec benchmark/exec benchmark-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"exec benchmark/Components/phonegap-iphone/PhoneGapLib/Classes\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -412,12 +496,19 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "exec benchmark/exec benchmark-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "exec benchmark/exec benchmark-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"exec benchmark/Components/phonegap-iphone/PhoneGapLib/Classes\"/**";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
