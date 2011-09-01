@@ -36,6 +36,8 @@
 		C923E513140FF60D00BCBAE0 /* libPhoneGap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C923E511140FF5C500BCBAE0 /* libPhoneGap.a */; };
 		C923E515140FF65C00BCBAE0 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = C923E514140FF65C00BCBAE0 /* VERSION */; };
 		C923E51D140FFC2800BCBAE0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = C923E51C140FFC2800BCBAE0 /* www */; };
+		C923E525140FFDDB00BCBAE0 /* PGTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = C923E524140FFDDB00BCBAE0 /* PGTesting.m */; };
+		C923E52814100AFD00BCBAE0 /* DebugUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C923E52714100AFD00BCBAE0 /* DebugUIWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +100,10 @@
 		C923E511140FF5C500BCBAE0 /* libPhoneGap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPhoneGap.a; sourceTree = SOURCE_ROOT; };
 		C923E514140FF65C00BCBAE0 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VERSION; path = "Components/phonegap-iphone/PhoneGapLib/VERSION"; sourceTree = "<group>"; };
 		C923E51C140FFC2800BCBAE0 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = "exec benchmark/www"; sourceTree = "<group>"; };
-		C923E520140FFC4C00BCBAE0 /* phonegap-1.0.0.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "phonegap-1.0.0.js"; path = "exec benchmark/Components/phonegap-iphone/PhoneGapLib/javascripts/phonegap-1.0.0.js"; sourceTree = "<group>"; };
+		C923E523140FFDDB00BCBAE0 /* PGTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGTesting.h; path = Classes/PGTesting.h; sourceTree = "<group>"; };
+		C923E524140FFDDB00BCBAE0 /* PGTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGTesting.m; path = Classes/PGTesting.m; sourceTree = "<group>"; };
+		C923E52614100AFD00BCBAE0 /* DebugUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugUIWebView.h; path = Classes/DebugUIWebView.h; sourceTree = "<group>"; };
+		C923E52714100AFD00BCBAE0 /* DebugUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DebugUIWebView.m; path = Classes/DebugUIWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +141,6 @@
 		C923E4A5140FEF4D00BCBAE0 = {
 			isa = PBXGroup;
 			children = (
-				C923E520140FFC4C00BCBAE0 /* phonegap-1.0.0.js */,
 				C923E51C140FFC2800BCBAE0 /* www */,
 				C923E511140FF5C500BCBAE0 /* libPhoneGap.a */,
 				C923E502140FF12100BCBAE0 /* PhoneGapLib.xcodeproj */,
@@ -249,6 +253,10 @@
 		C923E4F7140FEF4E00BCBAE0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C923E52614100AFD00BCBAE0 /* DebugUIWebView.h */,
+				C923E52714100AFD00BCBAE0 /* DebugUIWebView.m */,
+				C923E523140FFDDB00BCBAE0 /* PGTesting.h */,
+				C923E524140FFDDB00BCBAE0 /* PGTesting.m */,
 				C923E4F8140FEF4E00BCBAE0 /* AppDelegate.h */,
 				C923E4F9140FEF4E00BCBAE0 /* AppDelegate.m */,
 			);
@@ -388,6 +396,8 @@
 			files = (
 				C923E4D9140FEF4D00BCBAE0 /* main.m in Sources */,
 				C923E4FA140FEF4E00BCBAE0 /* AppDelegate.m in Sources */,
+				C923E525140FFDDB00BCBAE0 /* PGTesting.m in Sources */,
+				C923E52814100AFD00BCBAE0 /* DebugUIWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

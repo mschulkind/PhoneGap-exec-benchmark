@@ -13,6 +13,8 @@
 	#import "PhoneGapViewController.h"
 #endif
 
+#import "DebugUIWebView.h"
+
 @implementation AppDelegate
 
 @synthesize invokeString;
@@ -38,7 +40,14 @@
 		self.invokeString = [url absoluteString];
 		NSLog(@"exec benchmark launchOptions = %@",url);
 	}
-	
+
+  // Sub in our DebugUIWebView so we can catch javascript errors.
+	CGRect screenBounds = [ [ UIScreen mainScreen ] bounds ];
+	CGRect webViewBounds = [ [ UIScreen mainScreen ] applicationFrame ] ;
+	webViewBounds.origin = screenBounds.origin;
+	self.webView = 
+      [[[DebugUIWebView alloc] initWithFrame:webViewBounds] autorelease];
+
 	return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
