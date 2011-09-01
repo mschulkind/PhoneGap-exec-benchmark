@@ -1,0 +1,3 @@
+[submodule "exec benchmark/Components/phonegap-iphone"]
+	path = exec benchmark/Components/phonegap-iphone
+	url = https://github.com/mschulkind/phonegap-iphone
