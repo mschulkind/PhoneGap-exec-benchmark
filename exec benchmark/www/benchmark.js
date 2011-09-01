@@ -45,35 +45,35 @@ window.onDeviceReady = function () {
   var benchmarks = [];
 
   benchmarks.push(function (onDone) {
-    measure("exec() 10000 commands, 1 at a time", execNoop, 10000, 1, onDone);
+    measure("exec() 1000 commands, 1 at a time", execNoop, 1000, 1, onDone);
   });
   benchmarks.push(function (onDone) {
-    measure("exec() 10000 commands, 5 at a time", execNoop, 10000, 5, onDone);
+    measure("exec() 1000 commands, 5 at a time", execNoop, 1000, 5, onDone);
   });
   benchmarks.push(function (onDone) {
-    measure("exec() 10000 commands, 10 at a time", execNoop, 10000, 10, onDone);
+    measure("exec() 1000 commands, 10 at a time", execNoop, 1000, 10, onDone);
   });
   benchmarks.push(function (onDone) {
-    measure("exec() 10000 commands, 50 at a time", execNoop, 10000, 50, onDone);
+    measure("exec() 1000 commands, 50 at a time", execNoop, 1000, 50, onDone);
   });
   benchmarks.push(function (onDone) {
-    measure("exec() 10000 commands, 100 at a time", execNoop, 10000, 100, onDone);
+    measure("exec() 1000 commands, 100 at a time", execNoop, 1000, 100, onDone);
   });
 
   benchmarks.push(function (onDone) {
-    measure("fastExec() 10000 commands, 1 at a time", fastExecNoop, 10000, 1, onDone);
+    measure("fastExec() 1000 commands, 1 at a time", fastExecNoop, 1000, 1, onDone);
   });
   benchmarks.push(function (onDone) {
-    measure("fastExec() 10000 commands, 5 at a time", fastExecNoop, 10000, 5, onDone);
+    measure("fastExec() 1000 commands, 5 at a time", fastExecNoop, 1000, 5, onDone);
   });
   benchmarks.push(function (onDone) {
-    measure("fastExec() 10000 commands, 10 at a time", fastExecNoop, 10000, 10, onDone);
+    measure("fastExec() 1000 commands, 10 at a time", fastExecNoop, 1000, 10, onDone);
   });
   benchmarks.push(function (onDone) {
-    measure("fastExec() 10000 commands, 50 at a time", fastExecNoop, 10000, 50, onDone);
+    measure("fastExec() 1000 commands, 50 at a time", fastExecNoop, 1000, 50, onDone);
   });
   benchmarks.push(function (onDone) {
-    measure("fastExec() 10000 commands, 100 at a time", fastExecNoop, 10000, 100, onDone);
+    measure("fastExec() 1000 commands, 100 at a time", fastExecNoop, 1000, 100, onDone);
   });
 
   benchmarks.push(function (onDone) {
